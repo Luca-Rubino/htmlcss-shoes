@@ -18,15 +18,18 @@ nav {
 h1 {
     justify-content: center;
     position: relative;
-    top: 44rem;
+    top: 43rem;
     font-size: 4rem;
     text-align: center;
     color: #ffff00;
     width: 34%;
     margin: 0 auto;
-    height: 8rem;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+main section:last-child > h1 {
+    color: #008000;
 }
 
 header > section:last-child,
