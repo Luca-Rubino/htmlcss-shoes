@@ -3,3 +3,55 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+nav {
+    background-color: #ff0000;
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    align-items: end;
+}
+
+header > section:last-child,
+main > section {
+    justify-content: center;
+}
+
+/* immagini */
+
+header > section:last-child,
+main > section {
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+    max-height: 100%;
+
+}
+
+header > section:last-child {
+    background-image: url(../img/01.png);
+    background-color: #ff0000;
+
+}
+
+main > section:first-child {
+    background-image: url(../img/02.png);
+    background-color: #008000;
+}
+
+main > section:last-child {
+    background-image: url(../img/03.png);
+    background-color: #ffff00;
+}
+
+.flex {
+    display: flex;
+}
