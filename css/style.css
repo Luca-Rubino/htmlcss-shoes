@@ -16,7 +16,11 @@ nav {
 }
 
 h1 {
-    align-items: end;
+    justify-content: center;
+    position: relative;
+    top: 52rem;
+    font-size: 3rem;
+    color: #ffff00;
 }
 
 header > section:last-child,
@@ -31,9 +35,7 @@ main > section {
     background-origin: border-box;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-    background-size: contain;
-    max-height: 100%;
-
+    height: 58rem;
 }
 
 header > section:last-child {
